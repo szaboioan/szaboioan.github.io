@@ -16,9 +16,10 @@ minimal: true             # use a dark header
 # Menu
 
 # Navigation links
-navbar:
-  - { file: "index.html", title: "Home Change", icon: home }
+navigation:
+  - { title: "CV", url: "chrome-extension://kdpelmjpfafjppnhbloffcjpeomlnpah/https://art.utcluj.ro/colectiv/documents/szabo-cv.pdf" icon: home }
   - { file: "README.md", title: "About Me", icon: address-card }
+  
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:ioan.szabo@auto.utcluj.ro"}
